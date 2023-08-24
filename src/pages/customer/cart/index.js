@@ -29,7 +29,7 @@ export default function Cart() {
                     <CartTable cart={cart} />
                 </div>
             )}
-            {haveData && cart.length == 0 && (
+            {haveData && cart.length === 0 && (
                 <div className="container mx-auto mb-20 min-h-screen grid justify-center text-[26px] text-orange-500 font-bold mt-[300px]">
                     <h1>
                         There are no orders in your cart, let's go shopping
